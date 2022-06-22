@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+.main{
+    /* background-image: url("4951268.png"); */
+    background-image: url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: rgb(114, 76, 5);
+}
+
+.main_h1{
+    font-size: 3em;
+}
+.main_p{
+    font-size: 1.2em;
+    position: relative;
+    bottom: 50px;
+}
+.main_button{
+    position: relative;
+    bottom: 50px;
+    background:none;
+    border-radius: 10px 10px;
+    border: 1px solid rgb(114, 76, 5);
+    color: rgb(114, 76, 5);
+    height: 60px;
+    width: 160px;
+    font-size: x-large;
+}
+.main_button:hover{
+    cursor:pointer;
+    background-color: rgb(114, 76, 5);
+    color: white;
+}
+
+.text1{
+    
+    background-color: rgb(114, 76, 5);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    line-height: 1.5em;
+}
+
+.text2{
+    background-color: white;
+    color: rgb(114, 76, 5);
+    text-align: center;
+    padding: 15px;
+    line-height: 1.5em;
+}
+
+.three_texts{
+    display: flex;
+}
+
+.three_texts div{
+    text-align: left;
+    padding: 15px;
+    line-height: 1.5em;
+    flex: 1;
+}
+
+.one, .three{
+    background-color: rgb(114, 76, 5);
+    color: white;
+}
+
+.two{
+    background-color: white;
+    color: rgb(114, 76, 5);
+}
